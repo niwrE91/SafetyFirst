@@ -20,6 +20,7 @@ enum RkiCountyDataPhase: Equatable {
     case phase1(Attributes)
     case phase2(Attributes)
     case phase3(Attributes)
+    case phase4(Attributes)
 }
 
 //Controller states
@@ -93,15 +94,18 @@ class RkiCountyDataController {
                         self.state = .failed(.federalStateError(message: NSLocalizedString("label_txt_error_federalState", comment: "only in federal state of Bavaria")))
                     }
                     else {
-                        // check in what phase the aktual county lokation is
+                        // check in what phase the current county lokation is
                         if 0..<35 ~= attributes.cases7PerOnehundretK {
                             self.state = .success(.phase1(attributes))
                         }
                         else if 35..<50 ~= attributes.cases7PerOnehundretK  {
                             self.state = .success(.phase2(attributes))
                         }
-                        else if attributes.cases7PerOnehundretK > 50.0{
+                        else if 50..<100 ~= attributes.cases7PerOnehundretK {
                             self.state = .success(.phase3(attributes))
+                        }
+                        else if attributes.cases7PerOnehundretK > 100 {
+                            self.state = .success(.phase4(attributes))
                         }
                     }
             }

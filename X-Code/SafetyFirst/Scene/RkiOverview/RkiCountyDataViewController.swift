@@ -117,6 +117,18 @@ class RkiCountyDataViewController: UIViewController {
                     self.partyDescriptionTxt.text = NSLocalizedString("label_txt_party_phase3", comment: "party rules")
                     self.timeDescriptionTxt.text = NSLocalizedString("label_txt_time_phase3", comment: "time rules")
                 }
+
+            case .phase4(let attributes):
+                hideLoadingIndicator()
+
+                DispatchQueue.main.async {
+                    self.cases7Label.text = String(format: "%.2f", attributes.cases7PerOnehundretK) + "*"
+                    self.phaseView.backgroundColor = UIColor(named: "customDarkRed")
+                    self.descriptionLabel.text = String(format: NSLocalizedString("label_title_casesForCounty%@", comment: "*cases per..."), attributes.county)
+                    self.maskDescriptionTxt.text = NSLocalizedString("label_txt_mask_phase4", comment: "mask rules")
+                    self.partyDescriptionTxt.text = NSLocalizedString("label_txt_party_phase4", comment: "party rules")
+                    self.timeDescriptionTxt.text = NSLocalizedString("label_txt_time_phase4", comment: "time rules")
+                }
         }
     }
 

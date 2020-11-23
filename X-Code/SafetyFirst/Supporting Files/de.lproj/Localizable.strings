@@ -7,21 +7,25 @@
 //
 
 //Title Labels
-"label_title_casesForCounty%@" = "*Fälle der letzten 7 Tage/100.000 Einwohner im %@";
+"label_title_casesForCounty%@" = "*Fälle der letzten 7 Tage/100.000 Einwohner in %@";
 "label_title_rules" = "Diese Regeln gelten";
 "label_title_mask" = "Das Tragen einer Maske ist Pflicht";
 "label_title_party" = "Private Partys und Kontakte";
 "label_title_time" = "Zeitlimits";
 
 //Text Labels
-"label_txt_mask_phase1" = "- in öffentlichen Verkehrsmitteln\n- beim Einkaufen gehen\n- beim essen und trinken in Restaurants, Bars usw.\n- für den Fall, dass der Mindestabstand (1,5 m) nicht eingehalten werden kann";
+"label_txt_mask_phase1" = "- in öffentlichen Verkehrsmitteln\n- beim Einkaufen gehen\n- beim essen und trinken in Restaurants, Bars usw.\n- für den Fall, dass der Mindestabstand (1,5 m) nicht eingehalten werden kann.";
 "label_txt_mask_phase2" = "- vielfach besuchten Ort\n- Fußgängerzonen\n- in öffentlichen Gebäuden\n- in Sekundarschulen während des Unterrichts\n- an Universitäten\n- für Teilnehmer an (Sport-)Veranstaltungen etc.";
 "label_txt_mask_phase3" = "- vielfach besuchten Ort\n- Fußgängerzonen\n- in öffentlichen Gebäuden\n- in allen Klassenstufen während des Unterrichts\n- an Universitäten\n- für Teilnehmer an (Sport-)Veranstaltungen etc.";
-"label_txt_party_phase1" = "- max. 100 Teilnehmer in geschlossenen Räumen\n- max. 200 Teilnehmer in offenen Räumen";
-"label_txt_party_phase2" = "- nicht mehr als 2 Haushalte oder 10 Personen";
-"label_txt_party_phase3" = "- nicht mehr als 2 Haushalte oder 5 Personen";
-"label_txt_time_phase2" = "- kein Konsum und Verkauf von Alkohol in der Öffentlichkeit ab 23 Uhr";
-"label_txt_time_phase3" = "- kein Konsum und Verkauf von Alkohol in der Öffentlichkeit ab 22 Uhr";
+"label_txt_mask_phase4" = "- in öffentlichen Verkehrsmitteln\n- Einkaufen gehen\n- in Restaurants, Bars usw. essen und trinken.\n- für den Fall, dass der Mindestabstand (1,5 m) nicht eingehalten werden kann.";
+"label_txt_party_phase1" = "- max. 100 Teilnehmer in geschlossenen Räumen\n- max. 200 Teilnehmer in offenen Räumen.";
+"label_txt_party_phase2" = "- nicht mehr als 2 Haushalte oder 10 Personen.";
+"label_txt_party_phase3" = "- nicht mehr als 2 Haushalte oder 5 Personen.";
+"label_txt_party_phase4" = "- Events dürfen die anzahl von 50 Personen nicht überschreiten.";
+"label_txt_time_phase2" = "- kein Konsum und Verkauf von Alkohol in der Öffentlichkeit ab 23 Uhr.";
+"label_txt_time_phase3" = "- kein Konsum und Verkauf von Alkohol in der Öffentlichkeit ab 22 Uhr.";
+"label_txt_time_phase4" = "- Ladenschluss für Lebensmittel/Gastronomie,
+Verbot des Verkaufs und des Konsums von Alkohol an bestimmten öffentlichen Orten ab 21 Uhr.";
 
 //Error Title
 "title_error" = "Fehler";

@@ -14,14 +14,18 @@
 "label_title_time" = "Time limits";
 
 //Text Labels
-"label_txt_mask_phase1" = "- in public transportation\n- going shopping\n- eat and drink in restaurants, bars etc.\n- in case minimum distance (1.5m) can not be kept";
+"label_txt_mask_phase1" = "- in public transportation\n- going shopping\n- eat and drink in restaurants, bars etc.\n- in case minimum distance (1.5m) can not be kept.";
 "label_txt_mask_phase2" = "- in heavely frequented spaces\n- in pedestrain zones\n- in public buildings\n- in secondary schools during class\n- in universities\n- for attendees of (sports) events etc.";
 "label_txt_mask_phase3" = "- in heavely frequented spaces\n- in pedestrain zones\n- in public buildings\n- in all grades during class\n- in universities\n- for attendees of (sports) events etc.";
-"label_txt_party_phase1" = "- max. of 100 participants in closed spaces\n- max. of 200 participants in open spaces";
-"label_txt_party_phase2" = "- no more than 2 households or 10 peoples";
-"label_txt_party_phase3" = "- no more than 2 households or 5 peoples";
-"label_txt_time_phase2" = "- no consuming and selling of alcohol in public from 11 pm on";
-"label_txt_time_phase3" = "- no consuming and selling of alcohol in public from 10 pm on";
+"label_txt_mask_phase4" = "- in public transportation\n- going shopping\n- eat and drink in restaurants, bars etc.\n- in case minimum distance (1.5m) can not be kept.";
+"label_txt_party_phase1" = "- max. of 100 participants in closed spaces\n- max. of 200 participants in open spaces.";
+"label_txt_party_phase2" = "- no more than 2 households or 10 peoples.";
+"label_txt_party_phase3" = "- no more than 2 households or 5 peoples.";
+"label_txt_party_phase4" = "- events may not exceed the number of 50 people.";
+"label_txt_time_phase2" = "- no consuming and selling of alcohol in public from 11 pm on.";
+"label_txt_time_phase3" = "- no consuming and selling of alcohol in public from 10 pm on.";
+"label_txt_time_phase4" = "- closing time for food/gastronomy outlets,
+ban on alcohol sales and consumption sales in specific public places from 9 pm on.";
 
 //Error Title
 "title_error" = "Error";
