@@ -1,0 +1,35 @@
+//
+//  Localizable.strings
+//  SafetyFirst
+//
+//  Created by Erwin Warkentin on 15.11.20.
+//  
+//
+
+//Title Labels
+"label_title_casesForCounty%@" = "*cases per 100.000 residents in %@";
+"label_title_rules" = "These rules apply";
+"label_title_mask" = "Wearing mask is mandatory";
+"label_title_party" = "Private partys and contacts";
+"label_title_time" = "Time limits";
+
+//Text Labels
+"label_txt_mask_phase1" = "- in public transportation\n- going shopping\n- eat and drink in restaurants, bars etc.\n- in case minimum distance (1.5m) can not be kept";
+"label_txt_mask_phase2" = "- in heavely frequented spaces\n- in pedestrain zones\n- in public buildings\n- in secondary schools during class\n- in universities\n- for attendees of (sports) events etc.";
+"label_txt_mask_phase3" = "- in heavely frequented spaces\n- in pedestrain zones\n- in public buildings\n- in all grades during class\n- in universities\n- for attendees of (sports) events etc.";
+"label_txt_party_phase1" = "- max. of 100 participants in closed spaces\n- max. of 200 participants in open spaces";
+"label_txt_party_phase2" = "- no more than 2 households or 10 peoples";
+"label_txt_party_phase3" = "- no more than 2 households or 5 peoples";
+"label_txt_time_phase2" = "- no consuming and selling of alcohol in public from 11 pm on";
+"label_txt_time_phase3" = "- no consuming and selling of alcohol in public from 10 pm on";
+
+//Error Title
+"title_error" = "Error";
+"title_note" = "Note";
+"title_sorry" = "Excuse me, something has gone wrong.";
+
+//Error description
+"label_txt_error_federalState" = "We are sorry, this app only supports the state of Bavaria.";
+"label_txt_error_deniedLocation" = "For this app to work, you need to activate the location settings.";
+"label_txt_error_unknown" = "An unexpected error has occurred! Please try again later.";
+"label_txt_error_country" = "This app only works in the state of Bavaria, Germany.";

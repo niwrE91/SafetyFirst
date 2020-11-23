@@ -1,0 +1,9 @@
+//
+//  InfoPlist.strings
+//  SafetyFirst
+//
+//  Created by Erwin Warkentin on 18.11.20.
+//
+
+
+NSLocationWhenInUseUsageDescription = "Damit diese App die 7-Tage-Inzidenz Zahl, aus ihrem Landkreis, anzeigen kann benötigen wir Ihren Standort.";

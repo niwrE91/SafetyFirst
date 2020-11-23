@@ -1,0 +1,9 @@
+//
+//  InfoPlist.strings
+//  SafetyFirst
+//
+//  Created by Erwin Warkentin on 18.11.20.
+//
+//
+
+NSLocationWhenInUseUsageDescription = "For this app to display the 7-day incidence number from your county, we need your location.";
